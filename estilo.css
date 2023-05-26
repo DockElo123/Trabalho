@@ -1,0 +1,167 @@
+body{
+    background-color: #333233;
+    margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 20px;
+
+  }
+
+  .top-bar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+  }
+
+  .top-bar-fixed {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 0 30px;
+  }
+
+  .top-bar-content {
+    text-align: center;
+    height: 125px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgb(202, 202, 202);
+  }
+
+h1{
+    color: orangered;
+}
+
+.produtos{
+  margin: auto;
+  background-color: white;
+  min-height: 0px;
+	padding: 20px;
+	flex: 1;
+}
+
+.top-bar-color{
+
+  text-align: center;
+    height: 50px;
+    width: 100%;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    margin-left: -30px;
+    padding-right: 30px;
+    padding-left: 10px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+
+}
+
+div .top-bar-color #logo1{
+
+  position: absolute;
+  max-width: 140px;
+  top: 9px;
+  left: 150px;
+}
+
+/* Banner */
+
+.banner{
+  margin-top: 95px;
+  height: 450px;
+  width: auto;
+  background: url("banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.mid-bot-banner{
+  
+  margin: auto;
+  background-color: #fff000;
+  height: 50px;
+  text-align: center;
+  font-size: 35px;
+
+}
+
+.mid-bot-banner h3{
+  color: white;
+  font-family: 'Bebas';
+
+}
+
+.produtos #foto{
+
+  display: block;
+  max-width: 450px;
+  margin: auto;
+  padding-left: 10%;
+  
+}
+
+.produtos #nome_produto{
+
+  color: rgb(255, 59, 59);
+  font-family: 'Fruktur', cursive;
+  font-size: 70px;
+  padding-left: 130px;
+}
+
+.produtos #nome_produto:hover{
+
+  color:rgb(207, 58, 58);
+
+}
+
+.legenda{
+
+font-family: 'Kanit', sans-serif;
+font-size: 20px;
+text-align: justify;
+margin-left: 30%;
+}
+
+#preco {
+  background-color: blue;
+  width: 290px;
+  text-align: center;
+  border-right: 20px;
+  margin-left: 40%;
+}
+
+#style_preco{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 15%;
+  font-size: 40px;
+  font-family: 'Shrikhand', cursive;
+  color: white;
+}
+
+.product-bottom{
+
+  background-color:#333233;
+  height: 70px;
+
+}
