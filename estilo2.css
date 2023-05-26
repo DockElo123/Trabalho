@@ -1,0 +1,90 @@
+body{
+  
+    background-size: cover;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .container {
+      max-width: 600px;
+      margin: 0 auto;
+      position: relative;
+      padding-bottom: 20px;
+  
+    }
+  
+    .top-bar-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin-left: 5px;
+      margin-right: 5px;
+  
+    }
+  
+    .top-bar-fixed {
+      position: fixed;
+      right: 0;
+      left: 0;
+      margin: 0 30px;
+    }
+  
+    .top-bar-content {
+      text-align: center;
+      height: 125px;
+      width: 100%;
+      margin-top: -10px;
+      margin-bottom: 5px;
+      margin-left: -30px;
+      padding-right: 30px;
+      padding-left: 10px;
+      background-color: white;
+      position: fixed;
+      z-index: 1;
+      box-shadow: 1px 1px 10px rgb(202, 202, 202);
+    }
+  
+  .produtos{
+    margin: auto;
+    background-color: white;
+    min-height: 0px;
+      padding: 20px;
+      flex: 1;
+  }
+  
+  .top-bar-color{
+  
+    text-align: center;
+      height: 50px;
+      width: 100%;
+      margin-top: -10px;
+      margin-bottom: 5px;
+      margin-left: -30px;
+      padding-right: 30px;
+      padding-left: 10px;
+      background-color: black;
+      position: fixed;
+      z-index: 1;
+  
+  }
+  
+  div .top-bar-color #logo1{
+  
+    position: absolute;
+    max-width: 140px;
+    top: 9px;
+    left: 150px;
+  }
+  
+  #descricao{
+    text-size-adjust: 12%;
+  
+    text-shadow: 3px 3px 2px white ;
+    margin-top: 140px;
+    background-color: none;
+    text-align: center;
+    color: darkblue;
+  }  
